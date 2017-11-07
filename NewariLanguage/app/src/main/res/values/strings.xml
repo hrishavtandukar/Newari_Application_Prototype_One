@@ -1,0 +1,16 @@
+<resources>
+    <!-- For heading or title of main activity -->
+    <string name="app_name">Newari Language</string>
+
+    <!-- For heading or title of History -->
+    <string name="history">History</string>
+
+    <!-- For heading or title of Learn Newari -->
+    <string name="learn_newari">Learn Newari</string>
+
+    <!-- For heading or title of Quiz -->
+    <string name="quiz">Quiz</string>
+
+    <!-- For heading or title of About Us -->
+    <string name="help">Help</string>
+</resources>

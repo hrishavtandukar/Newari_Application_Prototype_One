@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_app_img"
+    android:orientation="vertical"
+    android:id="@+id/historyLinearLayoutFirst"
+    tools:context="com.learnnewari.hrishav.newarilanguage.History">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewHistory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imgHistory"
+                android:text="History of Newari Language"
+                android:textAlignment="center"
+                android:textColor="#4A2511"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewHistoryparagraph"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="\t\tThe Ranjana script, which is also known as Kutila or Lantsa, is one of the many alphabets derived from the Brahmi script. It developed during the 11th century AD and was used until the mid-20th century in India and Nepal by the Newari people to write the Newari language.\n\t\tTibetans use this script, which they call Lantsa, for writing the Sanskrit titles of books which have been translated from Sanskrit to Tibetan, and for decoration in temples and mandalas. There are also a few texts printed with alternating lines in Sanskrit in the Lantsa script followed by a Tibetan translation. There were many original Sanskrit manuscripts written in Lantsa preserved in the old monasteries of Tibet but most of these were destroyed following the Chinese take-over.\n\t\tIn addition, the Ranjana script is/was used mainly for decoration by Buddhists in China, Mongolia and Japan."
+                android:textColor="#4B371C"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="257dp"
+                app:srcCompat="@drawable/history_pic" />
+
+            <TextView
+                android:id="@+id/literatureExtant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Notable features"
+                android:paddingLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:textColor="#4A2511"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewHistoryPoints"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Type of writing system: syllabic alphabet - each letter has an inherent vowel [a]. Other vowels can be indicated using a separate letters or diacritics.\n\n2. Direction of writing: left to right in horizontal lines."
+                android:padding="16dp"
+                android:layout_marginBottom="16dp"
+                android:textColor="#4B371C"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/buttonLangagePDFLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Click Here To show PDF of Newari Language"
+                android:textColor="#ffffff"
+                android:onClick="btnPDFLink"
+                android:background="#2E1503"/>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

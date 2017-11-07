@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/background_app_img"
+    tools:context="com.learnnewari.hrishav.newarilanguage.MainActivity">
+
+    <TextView
+        android:id="@+id/textViewNamaste"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="46dp"
+        android:text="Namaste\nनमस्ते"  />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textViewNamaste"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/buttonLearnNewari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Learn Newari"
+            android:layout_marginTop="16dp"
+            android:elevation="10dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_weight="0.15"
+            android:background="#795C30"/>
+
+        <Button
+            android:id="@+id/buttonHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="History"
+            android:onClick="btnHistory"
+            android:layout_marginTop="16dp"
+            android:elevation="10dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_weight="0.15"
+            android:background="#795C34" />
+
+        <Button
+            android:id="@+id/buttonQuiz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quiz"
+            android:onClick="btnQuizActivity"
+            android:layout_marginTop="16dp"
+            android:elevation="10dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_weight="0.15"
+            android:background="#795C34" />
+
+        <Button
+            android:id="@+id/buttonhelp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Help"
+            android:onClick="btnHelp"
+            android:layout_marginTop="16dp"
+            android:elevation="10dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_weight="0.15"
+            android:background="#795C34" />
+
+        <Button
+            android:id="@+id/buttonQuit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quit"
+            android:onClick="btnQuit"
+            android:layout_marginTop="16dp"
+            android:elevation="10dp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:layout_weight="0.15"
+            android:background="#795C34" />
+
+    </LinearLayout>
+</RelativeLayout>

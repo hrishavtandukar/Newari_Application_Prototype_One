@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_app_img"
+    tools:context="com.learnnewari.hrishav.newarilanguage.Help">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewHelp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Purpose of this Android app???"
+            android:paddingTop="16dp"
+            android:textAlignment="center"
+            android:textColor="#4A2511"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageViewHelp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/help_pic" />
+
+        <TextView
+            android:id="@+id/textViewHelpParagraph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="\t\tThis android app is developed in order to teach basic terms of Newari language. \n\t\tYou can start learning Newari language by selecting Learn Newari language. There you can find words with meaning as well as audio in order to know how to speak those words.\n\t\tInside history option, history of Newari language is given. You can also find a PDF file related to Newari language. \n\t\tUsers can also check thier skill by going to quiz option. You can play a quiz game related to Newari language in order to check your newari language skill. \n\t\tYou can also send feedback to us by selecting feedabck option of the toolbar."
+            android:textColor="#4B371C"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</ScrollView>
